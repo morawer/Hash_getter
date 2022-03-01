@@ -17,4 +17,4 @@ def getsha256(file):
         return ""
 
 pathfile = os.getcwd() + "/" + sys.argv[1]
-print(getsha256(pathfile))
+print('BASH: ' + getsha256(pathfile))
